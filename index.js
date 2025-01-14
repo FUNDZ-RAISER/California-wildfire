@@ -48,7 +48,7 @@ document.getElementById('menu-toggle').addEventListener('click', function () {
 
 // Example: Automatically add a donation amount for demonstration purposes
 // Replace this with your actual donation logic
-setTimeout(() => updateProgress(1000), 2000); // Simulate a $1000 donation after 2 seconds
+setTimeout(() => updateProgress(10000), 2000); // Simulate a $1000 donation after 2 seconds
 setTimeout(() => updateProgress(500), 5000);  // Simulate a $500 donation after 5 seconds
 setTimeout(() => updateProgress(200), 22000);
 setTimeout(() => updateProgress(100), 25000);
