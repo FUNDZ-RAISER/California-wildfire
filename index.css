@@ -26,6 +26,39 @@ b {
     color: #ff4500;
 }
 
+.payment-dropdown {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.payment-dropdown label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.payment-dropdown select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.payment-dropdown button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-dropdown button:hover {
+    background-color: #e63900;
+}
+
+
 nav ul {
     list-style-type: none;
     padding: 0;
