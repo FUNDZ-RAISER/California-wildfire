@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundraising for Single Parents in California</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script> <!-- External JavaScript file -->
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
@@ -36,7 +36,7 @@
         <h2>Welcome</h2>
         <p>The recent California wildfire has devastated countless families, especially single parents who are struggling to rebuild their lives. Your support can make a significant impact in helping them recover and rebuild.</p>
     </section>
-    
+
     <section id="about">
         <h2>About the Fundraiser</h2>
         <p><b>The Situation</b></p>
@@ -55,26 +55,26 @@
     
         <p>Together, we can make a difference in their lives. Thank you for your generosity!</p>
     </section>
-    
 
     <section id="donate">
         <h2>Donate Now</h2>
         <p>Your donation will directly support single parents affected by the California wildfire. Every contribution counts.</p>
-        
-        <!-- PayPal donation button -->
-        <form action="https://www.paypal.com/donate" method="post" target="_blank">
-            <input type="hidden" name="business" value="Cyroknightmare@gmail.com">
-            <input type="hidden" name="item_name" value="Fundraising for Single Parents in California Wildfire">
-            <input type="hidden" name="currency_code" value="USD">
-            <input type="submit" value="Donate Now">
-        </form>
+
+        <!-- Dropdown for Payment Methods -->
+        <div class="payment-dropdown">
+            <label for="payment-method">Choose a payment method:</label>
+            <select id="payment-method">
+                <option value="">Select</option>
+                <option value="paypal">PayPal</option>
+                <option value="cashapp">CashApp</option>
+            </select>
+            <button id="donate-button">Proceed to Payment</button>
+        </div>
     </section>
 
     <section id="updates">
         <h2>Updates</h2>
         <p>Current progress towards our goal of $500,000:</p>
-
-        <!-- Progress bar -->
         <div id="progress-container">
             <div id="progress-bar"></div>
         </div>
