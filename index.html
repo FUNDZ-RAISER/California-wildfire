@@ -59,18 +59,32 @@
     <section id="donate">
         <h2>Donate Now</h2>
         <p>Your donation will directly support single parents affected by the California wildfire. Every contribution counts.</p>
-
+    
         <!-- Dropdown for Payment Methods -->
         <div class="payment-dropdown">
             <label for="payment-method">Choose a payment method:</label>
             <select id="payment-method">
                 <option value="">Select</option>
                 <option value="paypal">PayPal</option>
-<!--                 <option value="cashapp">CashApp</option> -->
+                <option value="venmo">Venmo</option>
             </select>
             <button id="donate-button">Proceed to Payment</button>
         </div>
+    
+        <!-- Venmo Section -->
+        <div id="venmo-section" style="display: none; text-align: center; margin-top: 20px;">
+            <p>Pay with Venmo using the options below:</p>
+            <p>
+                <a href="https://venmo.com/code?user_id=4216796601124748708&created=1733451558.543944&printed=1" target="_blank" id="venmo-link" style="color: #ff4500; font-weight: bold;">
+                    Click here to pay with Venmo
+                </a>
+            </p>
+            <p>Or scan the QR code:</p>
+            <img src="venmo-qrcode.jpg" alt="Scan to pay with Venmo" style="max-width: 200px;">
+        </div>
     </section>
+    
+    
 
     <section id="updates">
         <h2>Updates</h2>
