@@ -58,7 +58,37 @@ b {
     background-color: #e63900;
 }
 
-
+#venmo-qr {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+#venmo-qr img {
+    border: 2px solid #ff4500;
+    border-radius: 8px;
+}
+#venmo-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+#venmo-section img {
+    border: 2px solid #ff4500;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#venmo-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#venmo-link:hover {
+    text-decoration: underline;
+}
 nav ul {
     list-style-type: none;
     padding: 0;
