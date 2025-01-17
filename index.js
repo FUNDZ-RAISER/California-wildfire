@@ -1,15 +1,20 @@
-// Handle payment method selection
 document.getElementById('donate-button').addEventListener('click', function () {
     const paymentMethod = document.getElementById('payment-method').value;
 
+    // Hide the Venmo section initially
+    document.getElementById('venmo-section').style.display = 'none';
+
     if (paymentMethod === 'paypal') {
         window.open('https://www.paypal.com/donate?business=Cyroknightmare@gmail.com', '_blank');
-    } else if (paymentMethod === 'cashapp') {
-        window.open('https://cash.app/$YourCashAppUsername', '_blank'); // Replace with your CashApp link
+    } else if (paymentMethod === 'venmo') {
+        // Show the Venmo section with link and QR code
+        document.getElementById('venmo-section').style.display = 'block';
     } else {
         alert('Please select a payment method.');
     }
 });
+
+
 
 
 // Target amount for the fundraiser
